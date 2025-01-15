@@ -371,6 +371,7 @@ section {
 .contact-container h2, p {
     text-align: center;
     margin-bottom: 10px;
+    line-height: 1.2;
 }
 
 

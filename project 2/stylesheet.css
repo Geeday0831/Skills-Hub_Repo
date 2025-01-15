@@ -95,7 +95,7 @@ header ul li a:hover {
 }
 
 .feature-item1, .feature-item2{
-    background-color: antiquewhite;
+    background-color: rgb(136, 108, 71);
     padding: 20px 30px;
     border-radius: 10px;
 }
