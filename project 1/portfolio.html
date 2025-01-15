@@ -8,32 +8,40 @@
     <title>My Portfolio</title>
 </head>
 <body>
+    <!-- header section -->
     <header>
         <div>
             <h2>
                 Abdulrauf
             </h2>
             <p class="tagline">
-                Innovative Full-stack Developer, Building Scalable Solutions with passion and Precision
+                Innovative Full-stack Developer <br>
+                Building Scalable Solutions with passion and Precision
             </p>
         </div>
+
+<!-- NAV AREA -->
         <div>
             <nav>
-                <a href="">About</a>
-                <a href="">Skills</a>
-                <a href="">Projects</a>
-                <a href="">Resume</a>
-                <a href="">Contact</a>
+                <ul>
+                    <a href="#about">About</a>
+                    <a href="#skills">skills</a>
+                    <a href="#project">Projects</a>
+                    <a href="#resume">Resume</a>
+                    <a href="#contact">Contact</a>
+                 </ul>
             </nav>
         </div>
         
     </header>
     <main>
-        <section class="about">
-            <div>
-                <img src="" alt="">
+
+        <!-- about section  -->
+        <section class="about"id="about">
+            <div class="div1">      
+                <img src="https://images.unsplash.com/photo-1654755149743-cf30b31b9c0d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2plY3RzfGVufDB8fDB8fHww" alt="my profile" width="100%">
             </div>
-            <div>
+            <div class="div2">      
                 <h2>
                     Hey I'm Abdulrauf
                 </h2>
@@ -43,25 +51,202 @@
                     Cumque aspernatur tempore ipsam aliquam laudantium error a quas officiis dicta unde numquam quo laboriosam quod quisquam, odio eveniet, exercitationem veniam explicabo consequatur fugit maiores, commodi nihil nobis! Ex, quo.
                 </p>
 
+               <div class="button-div">
                 <button>
-                    Contact Me
-                </button>
-                <button>
-                    Hire Me
-                </button>
+                    <a href="#contact">    
+                     Contact Me
+                    </a>
+                 </button>
+                 <button>
+                     <a href="#contact">    
+                         Hire Me
+                        </a>
+                 </button>
+               </div>
         </div>
         </section>
 
-        <section class="skills">
+        <!-- skills section -->
+
+        <section class="skills" id="skills">
             <div>
-                <h3>Featured</h3>
-                <ul>
-                    <li><i class='bx bxl-html5'>HTML</i></li>
-                    <li><i class='bx bxl-css3'>CSS</i></li>
+                <h2>
+                    MY SKILLS
+                </h2>
+            </div>
+
+            <div class="skills-class">
+                <div class="featured-class">
+                    <h3>Featured</h3>
+                    <ul>
+                        <li><i class='bx bxl-html5'>HTML</i></li>
+                        <li><i class='bx bxl-css3'>CSS</i></li>
+                        <li><i class='bx bxl-javascript'> JAVASCIPT</i></li>
+                        <li><i class='bx bxl-python'> PYTHON</i></li>
+                    </ul>
+                </div>
+                <div class="language-class">
+                     <h3>Languages</h3>
+                     <ul>
+                        <li><i class='bx bxl-html5'>HTML</i></li>
+                        <li><i class='bx bxl-css3'></i>CSS</li>
+                        <li><i class='bx bxl-javascript'></i>JAVASCRIPT</li>
+                        <li><i class='bx bxl-python'></i>PYTHON</li>
+                        <li><i class='bx bxl-html5'></i>NODEJS</li>
+                        <li><i class='bx bxl-html5'></i>BOOTSTRAP CSS</li>
+                        <li><i class='bx bxl-html5'></i>TAILWIND CSS</li>
+                        <li><i class='bx bxl-html5'></i>REACT</li>
+                     </ul>
+                </div>
+    
+                <div class="frontend-class">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li><i class='bx bxl-html5'>HTML</i></li>
+                        <li><i class='bx bxl-css3'></i>CSS</li>
+                        <li><i class='bx bxl-javascript'></i>JAVASCRIPT</li>  
+                        <li><i class='bx bxl-html5'></i>REACT JS</li>
+                        <li><i class='bx bxl-html5'></i>VUE</li>
+                        <li><i class='bx bxl-html5'></i>ANGULAR</li>
+                        <li><i class='bx bxl-html5'></i>REACT</li>
+    
+                    </ul>
+                </div>
+    
+                <div class="backend-class">
+                    <h3>Backend</h3>
+                   <ul>
+                    <li><i class='bx bxl-javascript'> NODE JS</i></li>
+                    <li><i class='bx bxl-javascript'> VUE</i></li>
+                    <li><i class='bx bxl-javascript'> MONGO DB</i></li>
+                    <li><i class='bx bxl-javascript'> FLASK</i></li>
+                    <li><i class='bx bxl-javascript'> NO SQL</i></li>
+                    <li><i class='bx bxl-javascript'> BYCRPT</i></li>
+    
+                   </ul>
+                </div>
+            </div>
+           
+        </section>
+
+        <!-- Project section -->
+
+        <section class="project" id="project">
+            <div>
+                <h2>
+                    My Projects
+                </h2>
+            </div>
+            <div class="project-container">
+                <div class="project-a">
+                    <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2plY3RzfGVufDB8fDB8fHww" alt="project pic">
+                    <h3>
+                        Project A
+                    </h3>
+                    <p>
+                        A simple HTML and CSS portfolio webpage designed for my intership at Skill hub 
+                    </p>
+                    <a href="">Portfolio webpage</a>
                     
-                </ul>
+                </div>
+                <div class="project-a">
+                    <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2plY3RzfGVufDB8fDB8fHww" alt="project pic">
+                    <h3>
+                        Project B
+                    </h3>
+                    <p>
+                       Simple calculator designed with HTML, CSS and JAVASCRIPT during my internship at Skill hub tech. 
+                    </p>
+                    <a href="">calculator app</a>
+                </div>
+                <div class="project-a">
+                    <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2plY3RzfGVufDB8fDB8fHww" alt="project pic">
+                    <h3>
+                        Project C
+                    </h3>
+                    <p>
+                      a landing page with a login display area for clients to register or login.
+                    <br> Also designed for my internship in skill hub   
+                    </p>
+                    <a href="">landing page design</a>
+                </div>
             </div>
         </section>
+        
+        <!-- resume section -->
+
+        <section class="resume" id="resume">
+            <div class="resume-img">
+                <img src="https://images.unsplash.com/photo-1654755149743-cf30b31b9c0d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2plY3RzfGVufDB8fDB8fHww" alt="resume profile" width="100%">
+            </div>
+            <div class="resume-description">
+            <h2>
+                ABDULRAUF ABDULWAHAB
+            </h2>
+            <h3>
+                SOFTWARE DEVELOPER AND FULL-STACK DEVELOPER IN NIGERIA
+            </h3>
+            <P>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam eaque esse sit veritatis debitis illo laudantium, ipsa ipsum aut quia quasi in cupiditate laboriosam numquam maiores velit architecto aspernatur reiciendis.
+                Eaque iusto, ad dolorem voluptatibus pariatur placeat assumenda. Distinctio recusandae deleniti quo? atibus!
+            </P>
+
+           <div class="button-div2">
+            <button>
+                <a href=""> Download CV</a>
+             </button>
+ 
+             <button>
+                <a href=""> Hire Me</a>
+             </button>
+             </div>
+           </div>
+        </section>
+        <!-- contact section -->
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                    <h2>
+                        Portfolio contact page
+                    </h2>
+                    <p>
+                        thank you for contacting me<br>
+                        i would like to know more about you. <br> please fill the form below 
+                    </p>
+                    <form action="">
+                      
+                        <input type="text" id="name" placeholder="enter your full name" required>
+                        <br>
+                       
+                        <input type="email" id="email" placeholder="email" required>
+                        <br>
+                        <textarea name="message"id="message" rows="2" cols="30" placeholder="leave me a message here..." required>
+                        </textarea>
+                         <br>
+
+                        <button type="submit">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+        </section>
     </main>
+<!-- footer level -->
+    <footer>
+        <div class="footer-content">
+            <h3>Your Name</h3>
+            <p>Contact me at: abdulraufabdulwahab3108@gmail.com</p>
+            <p>Phone: (+234) 706-1446-407</p>
+            <p>Address: 123 Ahmadu Doka rd, Kaduna, Nigeria</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/yourprofile"><i class='bx bxl-facebook'></i></a></li>
+                <li><a href="https://www.linkedin.com/in/yourprofile"><i class='bx bxl-linkedin'></i></a></li>
+                <li><a href="https://www.instagram.com/yourprofile"><i class='bx bxl-instagram'></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Abdulrauf Abdulwahab. All rights reserved.</p>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+    </footer>
 </body>
 </html>
